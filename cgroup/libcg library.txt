@@ -1,0 +1,12 @@
+http://libcg.sourceforge.net/
+
+Introduction
+libcg is a library that abstracts the control group file system in Linux.
+
+What are Control Groups
+Control Groups provide a mechanism for aggregating/partitioning sets of tasks, and all their future children, into hierarchical groups with specialized behaviour [1]. 
+It makes use of a filesystem interface.
+
+
+Aims of libcg
+libcg aims to provide programmers easily usable APIs to use the control group file system. It should satisfy the following requirements
