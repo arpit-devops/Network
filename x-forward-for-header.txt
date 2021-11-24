@@ -1,0 +1,5 @@
+'X-Forwarded-For' contains the IP address of the client that is making a request
+
+The X-Forwarded-For Header is a request type header  which is used when a client connects to a web server through an "HTTP proxy or load balancer" for identifying the original IP address. The privacy of the user is put at risk as the sensitive information is revealed by using this header. 
+
+
